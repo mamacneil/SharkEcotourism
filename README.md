@@ -18,12 +18,6 @@ The datasets analyzed in this study will be deposited and made freely accessible
 in the Sydney eScholarship Repository upon acceptance of this article, and a link
 will be published here.
 
-The raw survey data are **not** included in this repository because the study's
-ethics approval requires that respondents remain de-identifiable. The analysis
-notebook reads a data file named `Shark_Ecotourism_Data.xlsx`; to reproduce the
-analysis, obtain that file from the repository deposit above and place it in this
-directory.
-
 ## Repository contents
 
 | File | Description |
@@ -59,6 +53,8 @@ The analysis was developed in Python 3.11 with:
 
 A pinned dependency list can be installed with `pip install -r requirements.txt`
 (see that file for exact versions).
+
+Claude code was used to ensure model revised code works and is annotated properly, as well as to initialize this repo.
 
 ## Method summary
 
